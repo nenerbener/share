@@ -31,6 +31,18 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFkzsf4YwzJXBU=",
+									"_parent": {
+										"$ref": "AAAAAAFj16+kZ8mlW0M="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 101,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFkzpemMfzcWrc=",
 									"_parent": {
 										"$ref": "AAAAAAFj16+kZ8mlW0M="
@@ -5612,7 +5624,7 @@
 									"font": "Arial;13;0",
 									"left": 108,
 									"top": 90,
-									"width": 202,
+									"width": 179,
 									"height": 26,
 									"text": "Nutch Data Store (flat file or HBase)",
 									"wordWrap": true
@@ -5632,7 +5644,7 @@
 							"font": "Arial;13;0",
 							"left": 88,
 							"top": 80,
-							"width": 232,
+							"width": 209,
 							"height": 408,
 							"nameLabel": {
 								"$ref": "AAAAAAFkzpX7kKYLP8c="
@@ -5832,6 +5844,466 @@
 							"idLabel": {
 								"$ref": "AAAAAAFkzpPZyaWTXaE="
 							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAFkzrx4V/9EDc8=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzrx4V/9FsTI=",
+									"_parent": {
+										"$ref": "AAAAAAFkzrx4V/9EDc8="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 200,
+									"width": 219.7177734375,
+									"height": 13,
+									"text": "org.apache.nutch.indexer.IndexingJob",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzrx4V/9GSZ0=",
+									"_parent": {
+										"$ref": "AAAAAAFkzrx4V/9EDc8="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 173,
+									"width": 219.7177734375,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 168,
+							"width": 239.7177734375,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAFkzrx4V/9FsTI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkzrx4V/9GSZ0="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAFkzsBzXP9SCrw=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsBzXP9QBek="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsBzXP9TEGM=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsBzXP9SCrw="
+									},
+									"font": "Arial;13;0",
+									"left": 660,
+									"top": 90,
+									"width": 178,
+									"height": 13,
+									"text": "Solr Database",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsBzXP9Ut80=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsBzXP9SCrw="
+									},
+									"font": "Arial;13;0",
+									"left": 645,
+									"top": 90,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 80,
+							"width": 208,
+							"height": 409,
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsBzXP9TEGM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkzsBzXP9Ut80="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkzsFyjf9ykag=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsFyjf9wvIs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkzsFyjf9zEro=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsFyjf9ykag="
+									},
+									"model": {
+										"$ref": "AAAAAAFkzsFyjf9wvIs="
+									},
+									"font": "Arial;13;0",
+									"left": 319,
+									"top": 102,
+									"width": 114.892578125,
+									"height": 13,
+									"alpha": -1.6848823260774766,
+									"distance": 96.62815324738438,
+									"hostEdge": {
+										"$ref": "AAAAAAFkzsFyjf9ykag="
+									},
+									"edgePosition": 1,
+									"text": "Nutch DB info Read"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzrx4V/9EDc8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzpX7kKYKjz8="
+							},
+							"lineStyle": 2,
+							"points": "296:120;472:120;472:168",
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsFyjf9zEro="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAFkzsQbg/++O0g=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsQbg/+8nqM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsQbg/+/TzU=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsQbg/++O0g="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 312,
+									"width": 140,
+									"height": 13,
+									"text": "YoutubeCCReader",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsQbhP/Ambw=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsQbg/++O0g="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 285,
+									"width": 140,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 280,
+							"width": 160,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsQbg/+/TzU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAFkzsQbhP/Ambw="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkzsUlY//SUh0=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsUlYv/QLus="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkzsUlY//T65s=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsUlY//SUh0="
+									},
+									"model": {
+										"$ref": "AAAAAAFkzsUlYv/QLus="
+									},
+									"font": "Arial;13;0",
+									"left": 335,
+									"top": 255,
+									"width": 76.857421875,
+									"height": 13,
+									"alpha": -1.6657487030814944,
+									"distance": 21.095023109728988,
+									"hostEdge": {
+										"$ref": "AAAAAAFkzsUlY//SUh0="
+									},
+									"edgePosition": 1,
+									"text": "URL"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzsQbg/++O0g="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzrx4V/9EDc8="
+							},
+							"lineStyle": 2,
+							"points": "394:248;394:280",
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsUlY//T65s="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkzsYwUAAKkSA=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsYwUAAIis8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkzsYwUAAL4II=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsYwUAAKkSA="
+									},
+									"model": {
+										"$ref": "AAAAAAFkzsYwUAAIis8="
+									},
+									"font": "Arial;13;0",
+									"left": 431,
+									"top": 257,
+									"width": 47.68994140625,
+									"height": 13,
+									"alpha": -4.740952021380059,
+									"distance": 35.014282800023196,
+									"hostEdge": {
+										"$ref": "AAAAAAFkzsYwUAAKkSA="
+									},
+									"edgePosition": 1,
+									"text": "CC data"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzrx4V/9EDc8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzsQbg/++O0g="
+							},
+							"lineStyle": 2,
+							"points": "490:280;490:248",
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsYwUAAL4II="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFkzsjBUQ+PeLM=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsjBUQ+NofU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsjBUg+VzAs=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsjBUQ+PeLM="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 413,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsjBUQ+QyGI=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsjBUQ+PeLM="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 418,
+									"width": 165,
+									"height": 13,
+									"text": "Solr Indexer",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFkzsjBUQ+RzcE=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsjBUQ+PeLM="
+									},
+									"font": "Arial;13;0",
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 408,
+							"width": 185,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsjBUQ+QyGI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkzskvlw+d1cc=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzskvlg+bvcI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkzskvlw+eKzU=",
+									"_parent": {
+										"$ref": "AAAAAAFkzskvlw+d1cc="
+									},
+									"model": {
+										"$ref": "AAAAAAFkzskvlg+bvcI="
+									},
+									"font": "Arial;13;0",
+									"left": 563,
+									"top": 427,
+									"width": 59.99169921875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFkzskvlw+d1cc="
+									},
+									"edgePosition": 1,
+									"text": "index data"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzsBzXP9SCrw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzsjBUQ+PeLM="
+							},
+							"lineStyle": 2,
+							"points": "544:448;640:448",
+							"nameLabel": {
+								"$ref": "AAAAAAFkzskvlw+eKzU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAFkzsoKQg+3bOA=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"model": {
+								"$ref": "AAAAAAFkzsoKQg+1ezI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFkzsoKQg+4sLc=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsoKQg+3bOA="
+									},
+									"model": {
+										"$ref": "AAAAAAFkzsoKQg+1ezI="
+									},
+									"font": "Arial;13;0",
+									"left": 543,
+									"top": 304,
+									"width": 82,
+									"height": 39,
+									"alpha": 1.6790667693017847,
+									"distance": 46.2709412050371,
+									"hostEdge": {
+										"$ref": "AAAAAAFkzsoKQg+3bOA="
+									},
+									"edgePosition": 1,
+									"text": "Nutch info with Youtube CC",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzsjBUQ+PeLM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzrx4V/9EDc8="
+							},
+							"lineStyle": 2,
+							"points": "538:248;538:408",
+							"nameLabel": {
+								"$ref": "AAAAAAFkzsoKQg+4sLc="
+							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFkzs6Qmg/hbSc=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 520,
+							"width": 585,
+							"height": 81,
+							"text": "YoutubeCCReader performs the following - checks URL is a well-formed Youtube video page link. If a Youtube link, checks for available DEFAULT CC data. If CC available, download CC data and store in Nutch Document object. Perform NER on CC data and store in Nutch Documentt object. Keys <types> to add to Nutch Document - isYouTubeURL<boolean>, closedCaption<Text>, closedCaptionWithTiming<String>, cc-ner-person<Text>, cc-ner-org<Text>, cc-ner-loc<Text>"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFkzvIk3xABTQ8=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpDDG1B0SCI="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFkzsQbg/++O0g="
+							},
+							"tail": {
+								"$ref": "AAAAAAFkzs6Qmg/hbSc="
+							},
+							"points": "328:520;328:328;360:328"
 						}
 					]
 				},
@@ -5841,7 +6313,130 @@
 					"_parent": {
 						"$ref": "AAAAAAFkzpDDG1BzQpE="
 					},
-					"name": "Nutch Data Store (flat file or HBase)"
+					"name": "Nutch Data Store (flat file or HBase)",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzsFyjf9wvIs=",
+							"_parent": {
+								"$ref": "AAAAAAFkzpX7kKYI5sc="
+							},
+							"name": "Nutch DB info Read",
+							"source": {
+								"$ref": "AAAAAAFkzpX7kKYI5sc="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAFkzrx4Vv9C18Q=",
+					"_parent": {
+						"$ref": "AAAAAAFkzpDDG1BzQpE="
+					},
+					"name": "org.apache.nutch.indexer.IndexingJob",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzsMRgP+bkk4=",
+							"_parent": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"source": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzsUlYv/QLus=",
+							"_parent": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"name": "URL",
+							"source": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzsQbg/+8nqM="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzsoKQg+1ezI=",
+							"_parent": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"name": "Nutch info with Youtube CC",
+							"source": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzsjBUQ+NofU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAFkzsBzXP9QBek=",
+					"_parent": {
+						"$ref": "AAAAAAFkzpDDG1BzQpE="
+					},
+					"name": "Solr Database"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAFkzsQbg/+8nqM=",
+					"_parent": {
+						"$ref": "AAAAAAFkzpDDG1BzQpE="
+					},
+					"name": "YoutubeCCReader",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzsYwUAAIis8=",
+							"_parent": {
+								"$ref": "AAAAAAFkzsQbg/+8nqM="
+							},
+							"name": "CC data",
+							"source": {
+								"$ref": "AAAAAAFkzsQbg/+8nqM="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzrx4Vv9C18Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFkzsjBUQ+NofU=",
+					"_parent": {
+						"$ref": "AAAAAAFkzpDDG1BzQpE="
+					},
+					"name": "Solr Indexer",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAFkzskvlg+bvcI=",
+							"_parent": {
+								"$ref": "AAAAAAFkzsjBUQ+NofU="
+							},
+							"name": "index data",
+							"source": {
+								"$ref": "AAAAAAFkzsjBUQ+NofU="
+							},
+							"target": {
+								"$ref": "AAAAAAFkzsBzXP9QBek="
+							}
+						}
+					]
 				}
 			]
 		}
