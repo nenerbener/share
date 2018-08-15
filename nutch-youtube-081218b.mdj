@@ -31,6 +31,18 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFlPI1AaPTPerI=",
+									"_parent": {
+										"$ref": "AAAAAAFj16+kZ8mlW0M="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 101,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFlLOosdvEx/VU=",
 									"_parent": {
 										"$ref": "AAAAAAFj16+kZ8mlW0M="
@@ -6165,6 +6177,18 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFlPI1An/c8Ujo=",
+									"_parent": {
+										"$ref": "AAAAAAFkzsjBUQ+PeLM="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 413,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFlLOossfOdZkk=",
 									"_parent": {
 										"$ref": "AAAAAAFkzsjBUQ+PeLM="
@@ -6534,8 +6558,8 @@
 										"$ref": "AAAAAAFlL72hOvRygnE="
 									},
 									"font": "Arial;13;0",
-									"left": 100,
-									"top": 506,
+									"left": 204,
+									"top": 762,
 									"width": 179,
 									"height": 26,
 									"text": "Nutch Data Store (flat file or HBase)",
@@ -6548,14 +6572,14 @@
 										"$ref": "AAAAAAFlL72hOvRygnE="
 									},
 									"font": "Arial;13;0",
-									"left": 85,
-									"top": 506,
+									"left": 189,
+									"top": 762,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 80,
-							"top": 496,
+							"left": 184,
+							"top": 752,
 							"width": 209,
 							"height": 408,
 							"nameLabel": {
@@ -6582,8 +6606,8 @@
 										"$ref": "AAAAAAFlL72hOvR1Hn0="
 									},
 									"font": "Arial;13;0",
-									"left": 158,
-									"top": 559,
+									"left": 262,
+									"top": 815,
 									"width": 70.10986328125,
 									"height": 13,
 									"text": "crawldb",
@@ -6596,14 +6620,14 @@
 										"$ref": "AAAAAAFlL72hOvR1Hn0="
 									},
 									"font": "Arial;13;0",
-									"left": 143,
-									"top": 559,
+									"left": 247,
+									"top": 815,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 138,
-							"top": 549,
+							"left": 242,
+							"top": 805,
 							"width": 100.10986328125,
 							"height": 33,
 							"nameLabel": {
@@ -6630,8 +6654,8 @@
 										"$ref": "AAAAAAFlL72hOvR4Ezg="
 									},
 									"font": "Arial;13;0",
-									"left": 158,
-									"top": 647,
+									"left": 262,
+									"top": 903,
 									"width": 70.10986328125,
 									"height": 13,
 									"text": "generatordb",
@@ -6644,14 +6668,14 @@
 										"$ref": "AAAAAAFlL72hOvR4Ezg="
 									},
 									"font": "Arial;13;0",
-									"left": 143,
-									"top": 647,
+									"left": 247,
+									"top": 903,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 138,
-							"top": 637,
+							"left": 242,
+							"top": 893,
 							"width": 100.10986328125,
 							"height": 33,
 							"nameLabel": {
@@ -6678,8 +6702,8 @@
 										"$ref": "AAAAAAFlL72hOvR7EFw="
 									},
 									"font": "Arial;13;0",
-									"left": 158,
-									"top": 735,
+									"left": 262,
+									"top": 991,
 									"width": 70.10986328125,
 									"height": 13,
 									"text": "contentdb",
@@ -6692,14 +6716,14 @@
 										"$ref": "AAAAAAFlL72hOvR7EFw="
 									},
 									"font": "Arial;13;0",
-									"left": 143,
-									"top": 735,
+									"left": 247,
+									"top": 991,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 138,
-							"top": 725,
+							"left": 242,
+							"top": 981,
 							"width": 100.10986328125,
 							"height": 33,
 							"nameLabel": {
@@ -6726,8 +6750,8 @@
 										"$ref": "AAAAAAFlL72hOvR+/uY="
 									},
 									"font": "Arial;13;0",
-									"left": 158,
-									"top": 823,
+									"left": 262,
+									"top": 1079,
 									"width": 70.10986328125,
 									"height": 13,
 									"text": "parsedb",
@@ -6740,14 +6764,14 @@
 										"$ref": "AAAAAAFlL72hOvR+/uY="
 									},
 									"font": "Arial;13;0",
-									"left": 143,
-									"top": 823,
+									"left": 247,
+									"top": 1079,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 138,
-							"top": 813,
+							"left": 242,
+							"top": 1069,
 							"width": 100.10986328125,
 							"height": 33,
 							"nameLabel": {
@@ -6775,8 +6799,8 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 616,
+									"left": 466,
+									"top": 872,
 									"width": 219.7177734375,
 									"height": 13,
 									"text": "org.apache.nutch.indexer.IndexingJob",
@@ -6790,16 +6814,16 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 589,
+									"left": 466,
+									"top": 845,
 									"width": 219.7177734375,
 									"height": 13
 								}
 							],
 							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
-							"left": 352,
-							"top": 584,
+							"left": 456,
+							"top": 840,
 							"width": 239.7177734375,
 							"height": 81,
 							"nameLabel": {
@@ -6827,8 +6851,8 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 652,
-									"top": 826,
+									"left": 756,
+									"top": 1082,
 									"width": 178,
 									"height": 13,
 									"text": "Solr Pundit Database",
@@ -6842,15 +6866,15 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 637,
-									"top": 826,
+									"left": 741,
+									"top": 1082,
 									"height": 13
 								}
 							],
 							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
-							"left": 632,
-							"top": 816,
+							"left": 736,
+							"top": 1072,
 							"width": 208,
 							"height": 89,
 							"nameLabel": {
@@ -6880,8 +6904,8 @@
 										"$ref": "AAAAAAFlL72hOvSevm4="
 									},
 									"font": "Arial;13;0",
-									"left": 311,
-									"top": 518,
+									"left": 415,
+									"top": 774,
 									"width": 114.892578125,
 									"height": 13,
 									"alpha": -1.6848823260774766,
@@ -6901,7 +6925,7 @@
 								"$ref": "AAAAAAFlL72hOvRygnE="
 							},
 							"lineStyle": 2,
-							"points": "288:536;464:536;464:584",
+							"points": "392:792;568:792;568:840",
 							"nameLabel": {
 								"$ref": "AAAAAAFlL72hOvSINIY="
 							}
@@ -6924,8 +6948,8 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 728,
+									"left": 466,
+									"top": 984,
 									"width": 140,
 									"height": 13,
 									"text": "YoutubeCCReader",
@@ -6939,16 +6963,16 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 701,
+									"left": 466,
+									"top": 957,
 									"width": 140,
 									"height": 13
 								}
 							],
 							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
-							"left": 352,
-							"top": 696,
+							"left": 456,
+							"top": 952,
 							"width": 160,
 							"height": 81,
 							"nameLabel": {
@@ -6978,8 +7002,8 @@
 										"$ref": "AAAAAAFlL72hOvShyHs="
 									},
 									"font": "Arial;13;0",
-									"left": 327,
-									"top": 671,
+									"left": 431,
+									"top": 927,
 									"width": 76.857421875,
 									"height": 13,
 									"alpha": -1.6657487030814944,
@@ -6999,7 +7023,7 @@
 								"$ref": "AAAAAAFlL72hOvSBFnA="
 							},
 							"lineStyle": 2,
-							"points": "386:664;386:696",
+							"points": "490:920;490:952",
 							"nameLabel": {
 								"$ref": "AAAAAAFlL72hOvSNtZg="
 							}
@@ -7024,8 +7048,8 @@
 										"$ref": "AAAAAAFlL72hO/SlDFU="
 									},
 									"font": "Arial;13;0",
-									"left": 423,
-									"top": 673,
+									"left": 527,
+									"top": 929,
 									"width": 47.68994140625,
 									"height": 13,
 									"alpha": -4.740952021380059,
@@ -7045,7 +7069,7 @@
 								"$ref": "AAAAAAFlL72hOvSJNTg="
 							},
 							"lineStyle": 2,
-							"points": "482:696;482:664",
+							"points": "586:952;586:920",
 							"nameLabel": {
 								"$ref": "AAAAAAFlL72hOvSPs8E="
 							}
@@ -7062,13 +7086,25 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFlPI1Aq/eLus8=",
+									"_parent": {
+										"$ref": "AAAAAAFlL72hOvSQefM="
+									},
+									"font": "Arial;13;0",
+									"left": 466,
+									"top": 1085,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFlL72hRPTeDuQ=",
 									"_parent": {
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 829,
+									"left": 466,
+									"top": 1085,
 									"width": 165,
 									"height": 13
 								},
@@ -7079,8 +7115,8 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": -8,
-									"top": 416,
+									"left": 96,
+									"top": 672,
 									"height": 13
 								},
 								{
@@ -7090,8 +7126,8 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 829,
+									"left": 466,
+									"top": 1085,
 									"width": 165,
 									"height": 13
 								},
@@ -7102,8 +7138,8 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 829,
+									"left": 466,
+									"top": 1085,
 									"width": 165,
 									"height": 13
 								},
@@ -7114,8 +7150,8 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 829,
+									"left": 466,
+									"top": 1085,
 									"width": 165,
 									"height": 13
 								},
@@ -7126,8 +7162,8 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": 362,
-									"top": 834,
+									"left": 466,
+									"top": 1090,
 									"width": 165,
 									"height": 13,
 									"text": "Solr Indexer",
@@ -7140,14 +7176,14 @@
 										"$ref": "AAAAAAFlL72hOvSQefM="
 									},
 									"font": "Arial;13;0",
-									"left": -8,
-									"top": 416,
+									"left": 96,
+									"top": 672,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 352,
-							"top": 824,
+							"left": 456,
+							"top": 1080,
 							"width": 185,
 							"height": 80,
 							"nameLabel": {
@@ -7174,8 +7210,8 @@
 										"$ref": "AAAAAAFlL72hO/SnPb0="
 									},
 									"font": "Arial;13;0",
-									"left": 555,
-									"top": 843,
+									"left": 659,
+									"top": 1099,
 									"width": 59.99169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7195,7 +7231,7 @@
 								"$ref": "AAAAAAFlL72hOvSQefM="
 							},
 							"lineStyle": 2,
-							"points": "536:864;632:864",
+							"points": "640:1120;736:1120",
 							"nameLabel": {
 								"$ref": "AAAAAAFlL72hOvSYFU0="
 							}
@@ -7220,8 +7256,8 @@
 										"$ref": "AAAAAAFlL72hOvSinNc="
 									},
 									"font": "Arial;13;0",
-									"left": 535,
-									"top": 720,
+									"left": 639,
+									"top": 976,
 									"width": 82,
 									"height": 39,
 									"alpha": 1.6790667693017847,
@@ -7242,7 +7278,7 @@
 								"$ref": "AAAAAAFlL72hOvSBFnA="
 							},
 							"lineStyle": 2,
-							"points": "530:664;530:824",
+							"points": "634:920;634:1080",
 							"nameLabel": {
 								"$ref": "AAAAAAFlL72hOvSahrs="
 							}
@@ -7253,11 +7289,11 @@
 							"_parent": {
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
-							"font": "Arial;13;0",
-							"left": 80,
-							"top": 936,
-							"width": 584,
-							"height": 129,
+							"font": "Arial;18;0",
+							"left": 192,
+							"top": 136,
+							"width": 841,
+							"height": 174,
 							"text": "Pundit DB - To configure Nutch to do scoring of Pundits look at configuring or adding the following components. 1) Youtube page name injector to pull out name, orgs that we are interested in (This may be done with regex-urlfilter.txt to filter only URLs wanted in the initial stage of finding names. The source URIs (e.g., Youtube URLs) can be a separate package/classes that search and fill the nutch urls directory, use a single Nutch pass to collect, parse and create a list of interesting names and orgs, Once we have this name list, we can use nutch to collect data from sites, twitter, facebook, youtube and export to Solr Data filtering data that has no relevance to name list. The next step would be to use social media links to and other URI content to fill a defined schema which would help understand the motivation of a person or organization related to a given topic."
 						},
 						{
@@ -7290,8 +7326,8 @@
 										"$ref": "AAAAAAFlMI3VmvVFiL8="
 									},
 									"font": "Arial;13;0",
-									"left": 108,
-									"top": 338,
+									"left": 212,
+									"top": 594,
 									"width": 163,
 									"height": 13,
 									"text": "Nutch URL Directory",
@@ -7304,14 +7340,14 @@
 										"$ref": "AAAAAAFlMI3VmvVFiL8="
 									},
 									"font": "Arial;13;0",
-									"left": 93,
-									"top": 338,
+									"left": 197,
+									"top": 594,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 88,
-							"top": 328,
+							"left": 192,
+							"top": 584,
 							"width": 193,
 							"height": 33,
 							"nameLabel": {
@@ -7328,8 +7364,8 @@
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
 							"font": "Arial;13;0",
-							"left": 96,
-							"top": 264,
+							"left": 200,
+							"top": 520,
 							"width": 184,
 							"height": 40,
 							"text": "contains flat files with URIs and metadata"
@@ -7348,7 +7384,7 @@
 								"$ref": "AAAAAAFlMI52CvVQjgc="
 							},
 							"lineStyle": 1,
-							"points": "186:304;185:327"
+							"points": "290:560;289:583"
 						},
 						{
 							"_type": "DFDDataStoreView",
@@ -7368,8 +7404,8 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 108,
-									"top": 210,
+									"left": 212,
+									"top": 466,
 									"width": 162,
 									"height": 26,
 									"text": "Video news source list for URLPopulator",
@@ -7383,15 +7419,15 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 93,
-									"top": 210,
+									"left": 197,
+									"top": 466,
 									"height": 13
 								}
 							],
 							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
-							"left": 88,
-							"top": 200,
+							"left": 192,
+							"top": 456,
 							"width": 192,
 							"height": 46,
 							"nameLabel": {
@@ -7408,8 +7444,8 @@
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
 							"font": "Arial;13;0",
-							"left": 632,
-							"top": 256,
+							"left": 736,
+							"top": 512,
 							"width": 185,
 							"height": 64,
 							"text": "Package to read news source list and populate the Nutch URL directory with  Video URIs"
@@ -7421,8 +7457,8 @@
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
 							"font": "Arial;13;0",
-							"left": 96,
-							"top": 112,
+							"left": 200,
+							"top": 368,
 							"width": 177,
 							"height": 64,
 							"text": "Keywords and URIs that are used in searching and populating the Nutch URL Directory"
@@ -7441,7 +7477,7 @@
 								"$ref": "AAAAAAFlMJc6DPWbY+Y="
 							},
 							"lineStyle": 1,
-							"points": "184:176;183:199"
+							"points": "288:432;287:455"
 						},
 						{
 							"_type": "DFDExternalEntityView",
@@ -7455,13 +7491,25 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFlPI1ArPesyp8=",
+									"_parent": {
+										"$ref": "AAAAAAFlMK3Kg/XfvGk="
+									},
+									"font": "Arial;13;0",
+									"left": 194,
+									"top": 653,
+									"width": 740,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFlMK3Kg/Xl8Bk=",
 									"_parent": {
 										"$ref": "AAAAAAFlMK3Kg/XfvGk="
 									},
 									"font": "Arial;13;0",
-									"left": 90,
-									"top": 397,
+									"left": 194,
+									"top": 653,
 									"width": 740,
 									"height": 13
 								},
@@ -7472,8 +7520,8 @@
 										"$ref": "AAAAAAFlMK3Kg/XfvGk="
 									},
 									"font": "Arial;13;0",
-									"left": 90,
-									"top": 402,
+									"left": 194,
+									"top": 658,
 									"width": 740,
 									"height": 13,
 									"text": "Nutch Workflow Engine (Injector, Generator, Fetcher, Parser)",
@@ -7486,13 +7534,14 @@
 										"$ref": "AAAAAAFlMK3Kg/XfvGk="
 									},
 									"font": "Arial;13;0",
-									"top": 16,
+									"left": 104,
+									"top": 272,
 									"height": 13
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 80,
-							"top": 392,
+							"left": 184,
+							"top": 648,
 							"width": 760,
 							"height": 41,
 							"nameLabel": {
@@ -7520,8 +7569,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 271,
-									"top": 369,
+									"left": 375,
+									"top": 625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -7539,7 +7588,7 @@
 								"$ref": "AAAAAAFlMI3VmvVFiL8="
 							},
 							"lineStyle": 2,
-							"points": "257:360;257:392",
+							"points": "361:616;361:648",
 							"nameLabel": {
 								"$ref": "AAAAAAFlMK7bxPXu2MY="
 							}
@@ -7564,8 +7613,8 @@
 										"$ref": "AAAAAAFlMK8Oe/X0nxo="
 									},
 									"font": "Arial;13;0",
-									"left": 278,
-									"top": 457,
+									"left": 382,
+									"top": 713,
 									"width": 65.03173828125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7585,7 +7634,7 @@
 								"$ref": "AAAAAAFlMK3Kg/XfvGk="
 							},
 							"lineStyle": 2,
-							"points": "439:432;439:448;184:448;184:496",
+							"points": "543:688;543:704;288:704;288:752",
 							"nameLabel": {
 								"$ref": "AAAAAAFlMK8Oe/X37ng="
 							}
@@ -7602,14 +7651,27 @@
 							"subViews": [
 								{
 									"_type": "LabelView",
+									"_id": "AAAAAAFlPI1Arfe4PMg=",
+									"_parent": {
+										"$ref": "AAAAAAFlMMDrAPYg0mE="
+									},
+									"lineColor": "#ff0000",
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 525,
+									"width": 221,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
 									"_id": "AAAAAAFlMMDrAfYm7EI=",
 									"_parent": {
 										"$ref": "AAAAAAFlMMDrAPYg0mE="
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 354,
-									"top": 269,
+									"left": 458,
+									"top": 525,
 									"width": 221,
 									"height": 13
 								},
@@ -7621,8 +7683,8 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": 354,
-									"top": 274,
+									"left": 458,
+									"top": 530,
 									"width": 221,
 									"height": 13,
 									"text": "URI Populator Package",
@@ -7636,15 +7698,15 @@
 									},
 									"lineColor": "#ff0000",
 									"font": "Arial;13;0",
-									"left": -16,
-									"top": 40,
+									"left": 88,
+									"top": 296,
 									"height": 13
 								}
 							],
 							"lineColor": "#ff0000",
 							"font": "Arial;13;0",
-							"left": 344,
-							"top": 264,
+							"left": 448,
+							"top": 520,
 							"width": 241,
 							"height": 49,
 							"nameLabel": {
@@ -7671,8 +7733,8 @@
 										"$ref": "AAAAAAFlMMF+6/Yu1AI="
 									},
 									"font": "Arial;13;0",
-									"left": 286,
-									"top": 231,
+									"left": 390,
+									"top": 487,
 									"width": 160.4052734375,
 									"height": 13,
 									"alpha": -1.4147717165460916,
@@ -7692,7 +7754,7 @@
 								"$ref": "AAAAAAFlMJEXWvVnSU4="
 							},
 							"lineStyle": 2,
-							"points": "279:224;456:224;456:264",
+							"points": "383:480;560:480;560:520",
 							"nameLabel": {
 								"$ref": "AAAAAAFlMMF+7PYxGAs="
 							}
@@ -7717,8 +7779,8 @@
 										"$ref": "AAAAAAFlMMKA9vZNyKg="
 									},
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 327,
+									"left": 424,
+									"top": 583,
 									"width": 111.25537109375,
 									"height": 13,
 									"alpha": -0.12283525389065764,
@@ -7738,7 +7800,7 @@
 								"$ref": "AAAAAAFlMMDrAPYg0mE="
 							},
 							"lineStyle": 2,
-							"points": "456:312;456:344;280:344",
+							"points": "560:568;560:600;384:600",
 							"nameLabel": {
 								"$ref": "AAAAAAFlMMKA9vZQzl0="
 							}
@@ -7757,7 +7819,7 @@
 								"$ref": "AAAAAAFlMJP8r/V3wrE="
 							},
 							"lineStyle": 1,
-							"points": "631:287;585:288"
+							"points": "735:543;689:544"
 						},
 						{
 							"_type": "UMLNoteView",
@@ -7766,8 +7828,8 @@
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
 							"font": "Arial;13;0",
-							"left": 632,
-							"top": 656,
+							"left": 736,
+							"top": 912,
 							"width": 216,
 							"height": 145,
 							"text": "The Pundit database is a list of possible names and organizations that are mentioned or have some relation with the video news sources. This list will be compared with social media site data to determine a more pared-down and probabalistic list of persons and orgs to find information."
@@ -7786,7 +7848,36 @@
 								"$ref": "AAAAAAFlMiXWSvZw7C0="
 							},
 							"lineStyle": 1,
-							"points": "737:801;736:815"
+							"points": "841:1057;840:1071"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAFlP4fs/ffqAJg=",
+							"_parent": {
+								"$ref": "AAAAAAFlL72hOvRxNro="
+							},
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 1216,
+							"width": 441,
+							"height": 185,
+							"text": "YoutubeCCReader is a IndexingJob package plugin, currently designed to be a monolithic processing class to apply NER to different String objects of the Nutch Documents and download attached closed caption data from Youtube videos. Nutch Document passed to YoutubeCCReader is a map which holds  fetched URI, raw content, parsed content, NER data, etc for a single URI. Youtube video CC data is fetched by extracting the Magic URL from Youtube webpage metadata and downloading the CC data. The original Youtube page title and Magic URL CC data are run through NER. All the captured data is added to the Nutch Document. Nutch can be configured to send any of the Document data to Solr. THIS IS THE INITIAL ARCHITECTURE TO TEST. EVENTUALLY MAY WANT TO MOVE THIS PROCESSING TO org.apache.nutch.parse package."
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFlP5r27vfzkZU=",
+							"_parent": {
+								"$ref": "AAAAAAFlL72hOvRxNro="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFlL72hOvSJNTg="
+							},
+							"tail": {
+								"$ref": "AAAAAAFlP4fs/ffqAJg="
+							},
+							"lineStyle": 1,
+							"points": "421:1215;424:992;455:992"
 						}
 					]
 				},
