@@ -7291,7 +7291,7 @@
 							},
 							"font": "Arial;18;0",
 							"left": 192,
-							"top": 136,
+							"top": 128,
 							"width": 841,
 							"height": 174,
 							"text": "Pundit DB - To configure Nutch to do scoring of Pundits look at configuring or adding the following components. 1) Youtube page name injector to pull out name, orgs that we are interested in (This may be done with regex-urlfilter.txt to filter only URLs wanted in the initial stage of finding names. The source URIs (e.g., Youtube URLs) can be a separate package/classes that search and fill the nutch urls directory, use a single Nutch pass to collect, parse and create a list of interesting names and orgs, Once we have this name list, we can use nutch to collect data from sites, twitter, facebook, youtube and export to Solr Data filtering data that has no relevance to name list. The next step would be to use social media links to and other URI content to fill a defined schema which would help understand the motivation of a person or organization related to a given topic."
@@ -7856,12 +7856,12 @@
 							"_parent": {
 								"$ref": "AAAAAAFlL72hOvRxNro="
 							},
-							"font": "Arial;13;0",
+							"font": "Arial;15;0",
 							"left": 200,
-							"top": 1216,
+							"top": 1208,
 							"width": 441,
-							"height": 185,
-							"text": "YoutubeCCReader is a IndexingJob package plugin, currently designed to be a monolithic processing class to apply NER to different String objects of the Nutch Documents and download attached closed caption data from Youtube videos. Nutch Document passed to YoutubeCCReader is a map which holds  fetched URI, raw content, parsed content, NER data, etc for a single URI. Youtube video CC data is fetched by extracting the Magic URL from Youtube webpage metadata and downloading the CC data. The original Youtube page title and Magic URL CC data are run through NER. All the captured data is added to the Nutch Document. Nutch can be configured to send any of the Document data to Solr. THIS IS THE INITIAL ARCHITECTURE TO TEST. EVENTUALLY MAY WANT TO MOVE THIS PROCESSING TO org.apache.nutch.parse package."
+							"height": 267,
+							"text": "YoutubeCCReader is a IndexingJob package plugin, currently designed to be a monolithic processing class to apply NER to different String objects of the Nutch Documents and download attached closed caption data from Youtube videos. A Nutch Document object passed to YoutubeCCReader is a map which holds  fetched URI, raw content, parsed content, NER data, etc for a single URI. Youtube video CC data is fetched by extracting the Magic URL from Youtube webpage metadata and downloading the corresponding CC data. The original Youtube page title and Magic URL CC data are run through the NER library. All the newly captured data is appended to the Nutch Document. Nutch then can be configured to send any of the Document data to Solr. THIS IS THE INITIAL ARCHITECTURE TO TEST. EVENTUALLY MAY WANT TO MOVE THIS PROCESSING TO org.apache.nutch.parse package. This would be harder since NutchDocument is only implemented in the Indexer."
 						},
 						{
 							"_type": "UMLNoteLinkView",
@@ -7877,7 +7877,7 @@
 								"$ref": "AAAAAAFlP4fs/ffqAJg="
 							},
 							"lineStyle": 1,
-							"points": "421:1215;424:992;455:992"
+							"points": "422:1207;424:992;455:992"
 						}
 					]
 				},
